@@ -1,0 +1,15 @@
+
+    .header_right {
+        display: flex;
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+    }
+    .circle {
+        width: 50px; /* Ancho del círculo */
+        height: 50px; /* Alto del círculo */
+        border-radius: 50%; /* Asegura que el círculo sea redondo */
+        background-color: gray; /* Cambia el color del círculo según tus necesidades */
+        display: flex;
+        justify-content: center; /* Centra horizontalmente el contenido dentro del círculo */
+        align-items: center; /* Centra verticalmente el contenido dentro del círculo */
+    }

@@ -1,0 +1,233 @@
+:root
+{   --header_background:#ffffff;
+    --header_linea_bottom: #c9cedb;
+    --header_altura: 64px;
+    --body_fondo:#f5f7fa;
+    --body_font_family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --header_color_logo: #6e7891;
+    --header_color_hover: #eff2f6;
+    --header_color_icon: #31374a;
+    --header_color_text: #31374a;
+}
+
+body, html
+{   padding: 0;
+    margin: 0;
+    background-color: var(--body_fondo);
+    font-family: var(--body_font_family);
+}
+
+/*  =====================================
+    *  *  ****  ****  ***    ****  ***
+    *  *  *     *  *  *  *   *     *  *
+    ****  ***   ****  *   *  ***   ***
+    *  *  *     *  *  *  *   *     *  *
+    *  *  ****  *  *  ***    ****  *   *
+    =====================================
+*/
+.header_principal
+{   background-color: var(--header_background);
+    margin: 0px 0px 0px 0px;
+    position: flex;
+    height: var(--header_altura);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    border-bottom: 1px solid var(--header_linea_bottom);
+}
+.header_principal ul
+{   list-style-type: none;
+    display: flex;
+} a
+{   text-decoration: none;
+    /*background-color: rgb(212, 166, 166);*/
+}
+
+.header_left_container
+{   /*background-color: rgb(220, 115, 105);*/
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin: 0px 0px 0px 0px;
+}
+.header_left
+{   /*background-color: red;*/
+    padding: 0% 0% 0% 0%;
+}
+.header_left svg path
+{
+    fill: #f09655;
+    stroke: #f09655;
+    stroke-width: 0.4;
+}
+
+.header_center_container
+{   /*background-color: rgb(36, 167, 86);*/
+    display: flex;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 37px;
+    justify-content: center;
+}
+.header_center
+{   /*background-color: rgb(174, 174, 194);*/
+    width: 55%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 100%;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.header_center li 
+{
+    /*background-color: blue;*/
+    width: 100%;
+    height: 100%;
+}
+.header_center li a
+{
+    display: inline-block; /* Mostrar elementos li en línea */
+    /*background-color: rgb(220, 197, 197);*/
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 0px ;
+    padding: 0px 10px 0px 0px;
+}
+.header_center li a span
+{
+    display: inline-block; /* Mostrar elementos li en línea */
+    padding: 8px 0px 0px 0px ;
+    font-size: 0.8rem ;
+    font-weight: 500;
+    color: var(--header_color_text);
+}
+.header_center li a svg
+{
+    transform: translateY(4px);
+    fill: var(--header_color_icon);
+    stroke:var(--header_color_icon);
+    stroke-width: 0.4;
+} 
+
+
+
+.header_right_container
+{   /*background-color: blueviolet;*/
+    display: flex;
+    justify-content: right;
+    width: 23%;
+    padding: 0px 35px 0px 35px;
+    margin: 0px 0px 0px 0px;
+    
+}
+
+.header_right
+{
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+}
+
+.header_right li 
+{
+    /*background-color: #8591b9;*/
+    padding: 0px 8px 0px 8px;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    
+}
+
+.header_right li a
+{
+    /*background-color: antiquewhite;*/
+    width: 100%;
+    height: 100%;
+    padding: 0px 3px 0px 3px;
+    margin: 0px 0px 0px 0px;
+}
+.header_right li a svg
+{
+    /*transform: translateY(9px);*/
+    fill: var(--header_color_icon);
+    stroke:var(--header_color_icon);
+    stroke-width: 0.4;
+}
+
+.logo_text
+{   font-size: 1.53625rem;
+    color: var(--header_color_logo);
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    margin-bottom: 0;
+}
+
+.redondo
+{
+    width: 40px; /* Ancho del círculo */
+    height: 40px; /* Alto del círculo */
+    border-radius: 100px; /* Asegura que el círculo sea redondo */
+    background-color: gray; /* Cambia el color del círculo según tus necesidades */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido dentro del círculo */
+    align-items: center; /* Centra verticalmente el contenido dentro del círculo */
+}
+.header_right_item1 
+{
+    background-color: #fff3e2;
+    border-radius: 50px 50px 50px 50px;
+    justify-content: center; /* Centra horizontalmente el contenido dentro del círculo */
+    align-items: center;
+}
+.header_right_item1 svg path
+{
+    fill: #e5780b;
+    stroke:#e5780b;
+}
+
+
+.header_right_item4 svg path
+{   fill: var(--header_color_icon);
+    stroke:var(--header_color_icon);
+    stroke-width: 0;
+}
+
+.header_right a img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+
+/*  HOVER EFECTOS*/
+.header_center li a:hover
+{   background-color: var(--header_color_hover);
+    border-radius: 6px;
+}
+.header_right_item1:hover
+{
+    background-color: #e5780b;
+    border-radius: 100px;
+    
+}
+.header_right_item1:hover svg path
+{
+    fill: #f7eed9;
+    stroke:#f7eed9;
+    stroke-width: 0.4;
+}
+
+
+/*  =====================================
+    *  *  ****  ****  ***    ****  ***
+    *  *  *     *  *  *  *   *     *  *
+    ****  ***   ****  *   *  ***   ***
+    *  *  *     *  *  *  *   *     *  *
+    *  *  ****  *  *  ***    ****  *   *
+    =====================================
+*/

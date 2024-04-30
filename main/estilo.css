@@ -1,0 +1,97 @@
+:root {
+    --font_family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font_size: 0.75rem;
+    --font_weight: 400;
+    --fondo: #e6d8d8;
+    --fondo_header: #ffffff;
+    --color_texto: #333333;
+    --color_enlace: #007bff;
+    --color_enlace_hover: #0057b365;
+    --color_fondo_secundario: #69839d;
+    --color_logo_text: #c48383;
+
+    --espaciado: 10px;
+    --borde_radio: 5px;
+    --sombra: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --color_hover_header: #eff2f6;
+    --ancho_maximo_contenedor: 1200px;
+}
+
+body 
+{   margin: 0;
+    padding: 0;
+    font-family: var(--font_family);
+    font-size: var(--font_size);
+    /*font-weight: var(--font_weight);*/
+    background-color: var(--fondo);
+}
+header 
+{   background-color: var(--fondo_header);
+    padding: 13px 10px 13px 10px;
+}
+
+.nav_menu_principal
+{   display: flex;
+    margin: 0px;
+}
+
+.logo_text 
+{   list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+
+} 
+.logo_text li div a svg
+{
+    fill: var(--color_logo_text);
+}
+.logo_text li div
+{
+    padding: 0px 270px 0px 45px;
+}
+.logo_text li a
+{
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    color: var(--color_logo_text);
+
+    font-size: 1.64625rem;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    margin-bottom: 0;
+}
+
+.lista_principal
+{   list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.lista_principal li 
+{   margin: 10px 15px 0px 15px;
+    /* 1899 80 */
+}
+.lista_principal li a
+{
+    padding-left: 0px;
+    text-decoration: none;
+    color: var(--color_texto);
+}
+.lista_principal li a span
+{
+    position: relative;
+    top: -2px;
+    left: 3px;
+}
+.lista_principal li div
+{
+    border-radius: 4px;
+    text-align: center;
+}
+.lista_principal li div:hover
+{
+    background-color: var(--color_hover_header);
+}
