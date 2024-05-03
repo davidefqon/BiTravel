@@ -223,3 +223,9 @@ body, html
     *  *  ****  *  *  ***    ****  *   *
     =====================================
 */
+
+.osc{
+    background-color: rgb(4, 1, 37);
+    color: white;
+    transition: all 1.5s ease;
+}
